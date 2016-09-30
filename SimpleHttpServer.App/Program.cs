@@ -26,15 +26,17 @@ namespace SimpleHttpServer.App
             bool bolWritable = true;
             object oValue = "";
             RegistryKey oKey = Registry.CurrentUser.OpenSubKey(strKey, bolWritable);
-            Console.Write(strKey);
+           
             oKey.SetValue("footer", oValue);
             oKey.SetValue("header", oValue);
-           // oKey.SetValue("margin_bottom", "0");
-           // oKey.SetValue("margin_left", "0");
-           // oKey.SetValue("margin_top", "0");
-            oKey.SetValue("Print_Background", "no");
+          //  oKey.SetValue("margin_bottom", "0");
+          //  oKey.SetValue("margin_left", "0");
+          //  oKey.SetValue("margin_top", "0");
+          //  oKey.SetValue("margin_right", "0");
+          //  oKey.SetValue("Print_Background", "no");      
  
             oKey.Close();
+            Console.Write("all print settings set");
         }
         static private void runBrowserThread(string text)
         {
