@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/SimpleHttpServer/bin/
+/SimpleHttpServer/obj/
+/.vs
+/SimpleHttpServer.App/bin/
+/SimpleHttpServer.App/obj/
+/SimpleHttpServer.Test/bin/
+/SimpleHttpServer.Test/obj/
+/packages/log4net.2.0.5
+/SimpleHttpServer/obj
